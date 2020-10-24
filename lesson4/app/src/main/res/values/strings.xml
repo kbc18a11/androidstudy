@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="tv_name">ぶっころす</string>
+    <string name="bt_name">おせや！！</string>
+    <string name="cb_name1">うどん！！</string>
+    <string name="cb_name2">たぴおかぱん！！</string>
+    <string name="rb_name1">こども！！</string>
+    <string name="rb_name2">浪人！！</string>
+    <string-array name="sp_curry_list">
+        <item>KMR</item>
+        <item>どらい</item>
+        <item>ぶちっぱ</item>
+    </string-array>
+    <string-array name="lv_cocktail_list">
+        <item>下北沢</item>
+        <item>岡山</item>
+        <item>アメリカ</item>
+    </string-array>
+
+</resources>
