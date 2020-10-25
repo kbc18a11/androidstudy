@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">lesson5</string>
+    <string name="dialog_title">注文確認</string>
+    <string name="dialog_msg">これにするな？</string>
+    <string name="dialog_btn_ng">しない</string>
+    <string name="dialog_btn_ok">これにする</string>
+    <string name="dialog_btn_nu">なんやこれ？</string>
+    <string name="dialog_ok_toast">注文ありがとなす</string>
+    <string name="dialog_ng_toast">キャンセルした</string>
+    <string name="dialog_nu_toast">ググレカス</string>
+</resources>
