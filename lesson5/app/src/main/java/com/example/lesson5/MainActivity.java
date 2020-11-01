@@ -34,7 +34,14 @@ public class MainActivity extends AppCompatActivity {
         );
 
         lvMenu.setAdapter(adapter);
+        lvMenu.setOnItemClickListener(new ListItemClickListener());
     }
 
-
+    private class ListItemClickListener implements AdapterView.OnItemClickListener{
+        @Override
+        public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
+            OderConfirmDialogFragment dialogFragment = new OderConfirmDialogFragment();
+            dialogFragment.show(getSupportFragmentManager(),"OderConfirmDialogFragment");
+        }
+    }
 }
